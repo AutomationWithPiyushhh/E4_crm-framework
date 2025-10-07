@@ -45,14 +45,11 @@ public class BaseClass {
 
 	@AfterMethod
 	public void logout() {
-//		Logout
 		System.out.println("logout");
 	}
 
 	@AfterClass
 	public void closeBro() throws InterruptedException {
-
-//		Browser Close
 		Thread.sleep(2000);
 		driver.quit();
 	}
