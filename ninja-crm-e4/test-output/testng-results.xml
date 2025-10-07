@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-07T16:47:26 IST" name="Default suite" finished-at="2025-10-07T16:47:31 IST" duration-ms="4635">
+    <groups>
+    </groups>
+    <test started-at="2025-10-07T16:47:26 IST" name="Default test" finished-at="2025-10-07T16:47:31 IST" duration-ms="4635">
+      <class name="config_ann.CampTest">
+        <test-method is-config="true" signature="openBro()[pri:0, instance:config_ann.CampTest@49438269]" started-at="2025-10-07T16:47:26 IST" name="openBro" finished-at="2025-10-07T16:47:27 IST" duration-ms="1245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBro -->
+        <test-method is-config="true" signature="login()[pri:0, instance:config_ann.CampTest@49438269]" started-at="2025-10-07T16:47:27 IST" name="login" finished-at="2025-10-07T16:47:29 IST" duration-ms="1153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createCampTest()[pri:0, instance:config_ann.CampTest@49438269]" started-at="2025-10-07T16:47:29 IST" name="createCampTest" finished-at="2025-10-07T16:47:29 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCampTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:config_ann.CampTest@49438269]" started-at="2025-10-07T16:47:29 IST" name="logout" finished-at="2025-10-07T16:47:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBro()[pri:0, instance:config_ann.CampTest@49438269]" started-at="2025-10-07T16:47:29 IST" name="closeBro" finished-at="2025-10-07T16:47:31 IST" duration-ms="2184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBro -->
+      </class> <!-- config_ann.CampTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
