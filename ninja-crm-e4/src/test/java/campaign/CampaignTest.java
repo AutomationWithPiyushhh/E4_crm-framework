@@ -1,6 +1,7 @@
 package campaign;
 
 import org.openqa.selenium.By;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import base_utility.BaseClass;
@@ -27,9 +28,14 @@ public class CampaignTest extends BaseClass {
 
 //		Verification
 		String actcName = driver.findElement(By.xpath("//td[text()='" + cName + "']")).getText();
-		if (actcName.equals(cName)) {
-			System.out.println("Campaign Created Successfully!!!");
-		}
+		
+		Assert.assertEquals(actcName, cName);
+		
+//		if (actcName.equals(cName)) {
+//			System.out.println("Campaign Created Successfully!!!");
+//		}else {
+//			System.out.println("Campaign could not be Created Successfully!!!");			
+//		}
 
 		Thread.sleep(5000);
 	}
