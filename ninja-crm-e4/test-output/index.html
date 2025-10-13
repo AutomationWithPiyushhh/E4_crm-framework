@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\User\AppData\Local\Temp\testng-eclipse--58903201\testng-customsuite.xml</span>
+                    <span>C:\Users\User\AppData\Local\Temp\testng-eclipse--1314858500\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -162,7 +162,7 @@
 	at org.testng.Assert.failNotEquals(Assert.java:1590)
 	at org.testng.Assert.assertFalse(Assert.java:79)
 	at org.testng.Assert.assertFalse(Assert.java:89)
-	at advance_reports.SauceDemo.failing(SauceDemo.java:59)
+	at advance_reports.SauceDemo.failing(SauceDemo.java:58)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -206,8 +206,8 @@
                   <a name="skipping">
                   </a> <!-- skipping -->
                   <span class="method-name">skipping</span>
-                  <div class="stack-trace">java.lang.Throwable: Method advance_reports.SauceDemo.skipping() on instance advance_reports.SauceDemo@2a5c8d3f depends on not successfully finished methods 
-[advance_reports.SauceDemo.failing() on instance advance_reports.SauceDemo@2a5c8d3f]
+                  <div class="stack-trace">java.lang.Throwable: Method advance_reports.SauceDemo.skipping() on instance advance_reports.SauceDemo@7a8c8dcf depends on not successfully finished methods 
+[advance_reports.SauceDemo.failing() on instance advance_reports.SauceDemo@7a8c8dcf]
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -251,7 +251,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\User\AppData\Local\Temp\testng-eclipse--58903201\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\User\AppData\Local\Temp\testng-eclipse--1314858500\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -302,22 +302,22 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'failing')
+data.setCell(0, 1, 'passing')
 data.setCell(0, 2, 'advance_reports.SauceDemo')
-data.setCell(0, 3, 364);
+data.setCell(0, 3, 421);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'passing')
+data.setCell(1, 1, 'failing')
 data.setCell(1, 2, 'advance_reports.SauceDemo')
-data.setCell(1, 3, 36);
+data.setCell(1, 3, 175);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'skipping')
 data.setCell(2, 2, 'advance_reports.SauceDemo')
-data.setCell(2, 3, 1);
+data.setCell(2, 3, 0);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 401 ms</span>
+              <span class="suite-total-time">Total running time: 596 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -344,32 +344,24 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">advance_reports.SauceDemo</div> <!-- chronological-class-name -->
-              <div class="configuration-suite before">
-                <span class="method-name">repConfig</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">openBro</span>
-                <span class="method-start">274 ms</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">failing</span>
-                <span class="method-start">1883 ms</span>
+                <span class="method-start">1714 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">passing</span>
-                <span class="method-start">2253 ms</span>
+                <span class="method-start">1902 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeBro</span>
-                <span class="method-start">2299 ms</span>
+                <span class="method-start">2333 ms</span>
               </div> <!-- configuration-class after -->
-              <div class="configuration-suite after">
-                <span class="method-name">repBackup</span>
-                <span class="method-start">2545 ms</span>
-              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

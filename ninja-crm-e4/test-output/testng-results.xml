@@ -2,20 +2,16 @@
 <testng-results ignored="0" total="3" passed="1" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-10T16:44:14 IST" name="Default suite" finished-at="2025-10-10T16:44:17 IST" duration-ms="2240">
+  <suite started-at="2025-10-13T17:08:57 IST" name="Default suite" finished-at="2025-10-13T17:09:00 IST" duration-ms="2515">
     <groups>
     </groups>
-    <test started-at="2025-10-10T16:44:14 IST" name="Default test" finished-at="2025-10-10T16:44:17 IST" duration-ms="2240">
+    <test started-at="2025-10-13T17:08:57 IST" name="Default test" finished-at="2025-10-13T17:09:00 IST" duration-ms="2515">
       <class name="advance_reports.SauceDemo">
-        <test-method is-config="true" signature="repConfig()[pri:0, instance:advance_reports.SauceDemo@2a5c8d3f]" started-at="2025-10-10T16:44:14 IST" name="repConfig" finished-at="2025-10-10T16:44:14 IST" duration-ms="253" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- repConfig -->
-        <test-method is-config="true" signature="openBro()[pri:0, instance:advance_reports.SauceDemo@2a5c8d3f]" started-at="2025-10-10T16:44:14 IST" name="openBro" finished-at="2025-10-10T16:44:16 IST" duration-ms="1601" status="PASS">
+        <test-method is-config="true" signature="openBro()[pri:0, instance:advance_reports.SauceDemo@7a8c8dcf]" started-at="2025-10-13T17:08:57 IST" name="openBro" finished-at="2025-10-13T17:08:59 IST" duration-ms="1702" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBro -->
-        <test-method signature="failing()[pri:0, instance:advance_reports.SauceDemo@2a5c8d3f]" started-at="2025-10-10T16:44:16 IST" name="failing" finished-at="2025-10-10T16:44:16 IST" duration-ms="364" status="FAIL">
+        <test-method signature="failing()[pri:0, instance:advance_reports.SauceDemo@7a8c8dcf]" started-at="2025-10-13T17:08:59 IST" name="failing" finished-at="2025-10-13T17:08:59 IST" duration-ms="175" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [false] but found [true]]]>
@@ -26,7 +22,7 @@ at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1590)
 at org.testng.Assert.assertFalse(Assert.java:79)
 at org.testng.Assert.assertFalse(Assert.java:89)
-at advance_reports.SauceDemo.failing(SauceDemo.java:59)
+at advance_reports.SauceDemo.failing(SauceDemo.java:58)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -59,19 +55,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failing -->
-        <test-method signature="passing()[pri:0, instance:advance_reports.SauceDemo@2a5c8d3f]" started-at="2025-10-10T16:44:16 IST" name="passing" finished-at="2025-10-10T16:44:16 IST" duration-ms="36" status="PASS">
+        <test-method signature="passing()[pri:0, instance:advance_reports.SauceDemo@7a8c8dcf]" started-at="2025-10-13T17:08:59 IST" name="passing" finished-at="2025-10-13T17:09:00 IST" duration-ms="421" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- passing -->
-        <test-method signature="skipping()[pri:0, instance:advance_reports.SauceDemo@2a5c8d3f]" started-at="2025-10-10T16:44:17 IST" name="skipping" finished-at="2025-10-10T16:44:17 IST" depends-on-methods="advance_reports.SauceDemo.failing" duration-ms="1" status="SKIP">
+        <test-method signature="skipping()[pri:0, instance:advance_reports.SauceDemo@7a8c8dcf]" started-at="2025-10-13T17:09:00 IST" name="skipping" finished-at="2025-10-13T17:09:00 IST" depends-on-methods="advance_reports.SauceDemo.failing" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method advance_reports.SauceDemo.skipping() on instance advance_reports.SauceDemo@2a5c8d3f depends on not successfully finished methods 
-[advance_reports.SauceDemo.failing() on instance advance_reports.SauceDemo@2a5c8d3f]]]>
+              <![CDATA[Method advance_reports.SauceDemo.skipping() on instance advance_reports.SauceDemo@7a8c8dcf depends on not successfully finished methods 
+[advance_reports.SauceDemo.failing() on instance advance_reports.SauceDemo@7a8c8dcf]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method advance_reports.SauceDemo.skipping() on instance advance_reports.SauceDemo@2a5c8d3f depends on not successfully finished methods 
-[advance_reports.SauceDemo.failing() on instance advance_reports.SauceDemo@2a5c8d3f]
+              <![CDATA[java.lang.Throwable: Method advance_reports.SauceDemo.skipping() on instance advance_reports.SauceDemo@7a8c8dcf depends on not successfully finished methods 
+[advance_reports.SauceDemo.failing() on instance advance_reports.SauceDemo@7a8c8dcf]
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -97,14 +93,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- skipping -->
-        <test-method is-config="true" signature="closeBro()[pri:0, instance:advance_reports.SauceDemo@2a5c8d3f]" started-at="2025-10-10T16:44:17 IST" name="closeBro" finished-at="2025-10-10T16:44:17 IST" duration-ms="195" status="PASS">
+        <test-method is-config="true" signature="closeBro()[pri:0, instance:advance_reports.SauceDemo@7a8c8dcf]" started-at="2025-10-13T17:09:00 IST" name="closeBro" finished-at="2025-10-13T17:09:00 IST" duration-ms="160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBro -->
-        <test-method is-config="true" signature="repBackup()[pri:0, instance:advance_reports.SauceDemo@2a5c8d3f]" started-at="2025-10-10T16:44:17 IST" name="repBackup" finished-at="2025-10-10T16:44:17 IST" duration-ms="383" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- repBackup -->
       </class> <!-- advance_reports.SauceDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

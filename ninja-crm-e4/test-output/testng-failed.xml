@@ -6,9 +6,7 @@
       <class name="advance_reports.SauceDemo">
         <methods>
           <include name="closeBro"/>
-          <include name="repBackup"/>
           <include name="openBro"/>
-          <include name="repConfig"/>
           <include name="failing"/>
           <include name="skipping"/>
         </methods>
