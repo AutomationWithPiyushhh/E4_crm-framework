@@ -14,7 +14,8 @@ import object_repository.LoginPage;
 
 public class BaseClass {
 	public WebDriver driver;
- 
+	public static WebDriver sdriver;
+  
 	@BeforeClass
 	public void openBro() {
 //		Open the Browser		
@@ -27,6 +28,8 @@ public class BaseClass {
 		} else {
 			driver = new EdgeDriver();
 		}
+		
+		sdriver = driver;
 
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));

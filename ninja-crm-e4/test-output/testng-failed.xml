@@ -3,14 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="advance_reports.SauceDemo">
+      <class name="listeners_extra.CampaignTest">
         <methods>
-          <include name="closeBro"/>
+          <include name="logout"/>
           <include name="openBro"/>
-          <include name="failing"/>
-          <include name="skipping"/>
+          <include name="createCampaignTest"/>
+          <include name="closeBro"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- advance_reports.SauceDemo -->
+      </class> <!-- listeners_extra.CampaignTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

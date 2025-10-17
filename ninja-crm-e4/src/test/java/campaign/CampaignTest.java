@@ -16,6 +16,8 @@ public class CampaignTest extends BaseClass {
 		HomePage hp = new HomePage(driver);
 		hp.getCampLink().click();
 
+
+
 		CampaignPomPage cpp = new CampaignPomPage(driver);
 		cpp.getCreateCampIcon().click();
 
